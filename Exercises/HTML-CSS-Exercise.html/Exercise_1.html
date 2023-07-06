@@ -1,0 +1,85 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercises</title>
+    <link rel="stylesheet" href="../HTML-CSS-Exercise.html/styles.css" />
+    <style>
+      table,
+      tr {
+        border: 1px solid #c4dcf3;
+        border-collapse: collapse;
+        text-align: left;
+        font-weight: normal;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 15px;
+      }
+      th,
+      td {
+        padding: 10px;
+      }
+      thead {
+        color: white;
+        background-color: #427fef;
+        border-collapse: collapse;
+        padding: 20px;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: #eef7ff;
+      }
+
+      tfoot {
+        color: white;
+        background-color: #427fef;
+        border-collapse: collapse;
+        padding: 20px;
+      }
+
+      #right {
+        text-align: right;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>OrderID</th>
+          <th>Order Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>USA</td>
+          <td>1000</td>
+          <td>$1,300</td>
+        </tr>
+        <tr>
+          <td>USA</td>
+          <td>1001</td>
+          <td>$700</td>
+        </tr>
+        <tr>
+          <td>CA</td>
+          <td>1002</td>
+          <td>$2,000</td>
+        </tr>
+        <tr>
+          <td>USA</td>
+          <td>1003</td>
+          <td>$1,000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <td>&nbsp;</td>
+          <th colspan="2">$5000</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
