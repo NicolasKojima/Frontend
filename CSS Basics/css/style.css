@@ -1,0 +1,120 @@
+/*p {
+    color: orange;
+}
+
+body {
+    margin: 10px;
+}
+
+a[href^="https"][href$="com"]{
+    color: green;
+}
+
+#product ~ p {
+    color: blue;
+}
+
+p.first {
+    font-size: 140%;
+    font-style: italic;
+}
+
+
+article p:first-of-type {
+    font-size: 140%;
+    font-style: italic;
+}
+
+article p:last-of-type {
+    font-weight: bold;
+}
+
+ul li:nth-child(odd){
+    color: deeppink
+}
+
+a:visited,
+a:link {
+    color: dodgerblue;
+}
+
+a:hover,
+a:focus  {
+    color: pink;
+}
+
+.first-letter {
+    font-weight: bold;
+    font-size: 140%
+}
+
+p::first-letter {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+::selection {
+    background-color: pink;
+}
+
+p::after {
+    content: "...";
+    display: block;
+}
+
+
+h1 {
+    color: dodgerblue;
+}
+
+.highlight {
+    color: deeppink;
+}
+
+#products {
+    color: green;
+}
+#products {
+    color: brown;
+}
+
+
+h1#products {
+    color: dodgerblue;
+}
+
+.featured #products {
+    color: green;
+} 
+
+p {
+    color: deepskyblue;
+    border: 1px solid black;
+}
+
+strong {
+    color: initial;
+    border: inherit;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(247, 247, 2, 0.5);
+}
+
+.box {
+width: 200px;
+height: 200px;
+background: linear-gradient(to bottom right, dodgerblue, rgb(218, 24, 218), pink);
+}
+*/
+.box {
+    width: 600px;
+    height: 200px;
+    background: radial-gradient(circle at top left, blue, pink)
+}
