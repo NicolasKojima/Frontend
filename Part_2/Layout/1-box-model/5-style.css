@@ -1,0 +1,36 @@
+
+
+body {
+    margin: 10px;
+    height: 200vh;
+}
+
+.boxes {
+    border: 3px solid lightgray;
+    position: relative;
+}
+
+.box {
+    width: 10rem;
+    height:10rem;
+    background-color: gray;
+}
+
+.box-one {
+    background-color: gold;
+}
+
+.box-two {
+    /* absolute positioning ignores all pre requisits for the position of that elements*/
+    /* relative positioning is the alternative and follows the rules set before*/
+
+    background-color: dodgerblue;
+    position: fixed; 
+    right: 0rem;
+    top: 0rem;
+    z-index: -1; /* in front of or behind */
+}
+
+.box-three {
+    background-color: tomato;
+}

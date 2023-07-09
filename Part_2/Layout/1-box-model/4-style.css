@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 10px;
+}
+
+/* "X"vw, "X"vh -> viewport height, viewport width*/
+/* em means x font sice of the current element8*/
+/* rem means x font size of the root element (em root is 16px)*/
+
+.box {
+    font-size: 15px;
+    width: 15em; 
+    height: 100vh;
+    background-color: aqua;
+    border-top: 3px solid black
+}

@@ -1,0 +1,30 @@
+.box{
+    width:auto;
+    height:auto;
+    background-color: beige;
+}
+
+.ad::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.tweet {
+    border:1px solid black;
+    margin-right: 0.5rem;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.avatar {
+    width:5rem;
+    height: 5rem;
+    background-color: tomato;
+    float:left;
+    margin-right: 0.5rem;
+}
+

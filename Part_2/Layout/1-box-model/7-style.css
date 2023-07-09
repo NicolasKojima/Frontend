@@ -1,0 +1,38 @@
+
+
+.container {
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* can - center, end, space-evenly, space-between */
+    align-items: center; /* can also call flex-end, flex,start, etc.*/
+    flex-wrap: wrap;/* when there are too many elements and they get squished, distributes them*/
+    align-content: center; /* with only flex-wrap, the boxes are spaced out, but can align them in the center with this function */
+    height: 90vh;
+}
+
+.box {
+    flex-basis: 5rem;
+    flex-grow: 0;
+    width:5rem;
+    height: 5rem;
+    background: skyblue;
+    margin: 1rem;
+}
+
+/* aligning items using the flex function
+
+1. if the flex is in a row: 
+    the main axis is the horizontal & the cross is the vertical
+2. if the flex is in a column
+    the main axis is the vertical & the corss is the horizontal
+
+1. justify-content - align items along the main axis
+2. align-items - align along the cross axis*/
+
+/* sizing items
+
+1. flex-basis - the initial size of a flex item
+2. flex-grow - the growth factor
+3. flex-shrink - the shrink factor
+4. flex
