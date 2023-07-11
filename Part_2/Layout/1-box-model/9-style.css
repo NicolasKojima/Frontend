@@ -1,0 +1,6 @@
+
+
+.first {
+    visibility: hidden;
+    /*display: none; will make it as if the element was never there*/
+}
